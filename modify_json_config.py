@@ -1,5 +1,6 @@
 import json, sys
 import notebook.auth
+from os import makedirs
 from os.path import isdir, isfile, expanduser, dirname
 from collections import defaultdict
 
